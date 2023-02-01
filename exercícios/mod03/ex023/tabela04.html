@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 500px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de tabela</h1>
+    <table>
+        <caption><h3>Filmes Favoritos</h3></caption>
+        <thead>
+            <tr>
+                <th>Grupos</th>
+                <th>Nomes</th>
+                <th colspan="3">Filmes</th>
+            </tr>
+            <tr>
+                <th rowspan="3">Mulheres</th>
+                <td>Maria Silva</td>
+                <td>Toy Story</td>
+                <td>Moana</td>
+                <td>Lilo Stitch</td>
+            </tr>
+            <tr>
+                <td>Júlia Maria</td>
+                <td>Irmão urso</td>
+                <td>Shrek</td>
+                <td>Pinóquio</td>
+            </tr>
+            <tr>
+                <td>Joana Oliveira</td>
+                <td>Branca de Neve</td>
+                <td>Rapunzel</td>
+                <td>Valente</td>
+            </tr>
+            <tr>
+                <th rowspan="3">Homens</th>
+                <td>João da Silva</td>
+                <td>The Ice Age</td>
+                <td>Lightyear</td>
+                <td>Encanto</td>
+            </tr>
+            <tr>
+                <td>Carlos Souza</td>
+                <td>Vingadores</td>
+                <td>Matrix</td>
+                <td>Thor</td>
+            </tr>
+            <tr>
+                <td>Caio Rodrigues</td>
+                <td>Homem de Ferro</td>
+                <td>eternos</td>
+                <td>Luca</td>
+            </tr>
+        </thead>
+    </table>
+</body>
+</html>
