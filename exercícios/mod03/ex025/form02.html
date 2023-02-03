@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Forms</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando Formulários</h1>
+
+    <form action="form.php" autocomplete="off" method="post">
+
+        <p>
+            <label for="id_usuario">Usuário: </label>
+            <input type="text" name="usuario" id="id_usuario" required minlength="5" maxlength="15">
+        </p>
+        <p>
+            <label for="id_senha">Senha: </label>
+            <input type="password" name="senha" id="id_senha" required minlength="8">
+        </p>
+        <p>
+            <input type="submit" value="Enviar formulário"> 
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+
+</body>
+</html>
