@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Título do site</h1>
+        <span id="burger" class="material-icons" onclick="clickMenu()">menu</span>
+        <menu id="items">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Notícias</a></li>
+                <li><a href="">Esportes</a></li>
+                <li><a href="#">Lazer</a></li>
+                <li><a href="">Variedades</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h1>Usando Media Queries</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita eveniet, blanditiis hic alias nobis reiciendis! Incidunt accusantium adipisci iure earum tenetur voluptatibus ratione commodi in placeat! Illo consectetur reprehenderit nesciunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio reiciendis hic magni id numquam praesentium ex nihil aspernatur illo fugiat! Excepturi cumque culpa adipisci optio quia quos dolorum ab atque?</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita eveniet, blanditiis hic alias nobis reiciendis! Incidunt accusantium adipisci iure earum tenetur voluptatibus ratione commodi in placeat! Illo consectetur reprehenderit nesciunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio reiciendis hic magni id numquam praesentium ex nihil aspernatur illo fugiat! Excepturi cumque culpa adipisci optio quia quos dolorum ab atque?</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita eveniet, blanditiis hic alias nobis reiciendis! Incidunt accusantium adipisci iure earum tenetur voluptatibus ratione commodi in placeat! Illo consectetur reprehenderit nesciunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio reiciendis hic magni id numquam praesentium ex nihil aspernatur illo fugiat! Excepturi cumque culpa adipisci optio quia quos dolorum ab atque?</p>
+        </article>
+    </main>
+
+    <script>
+        function clickMenu() {
+            if (items.style.display == 'none') {
+                items.style.display = 'block'
+            } else {
+                items.style.display = 'none'
+            }
+        }
+    </script>
+</body>
+</html>
